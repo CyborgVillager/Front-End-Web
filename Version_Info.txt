@@ -13,5 +13,7 @@
                | Description: v# description |
                | --------------------------- |
  ----------------------------    ----------------------------   ------------------------- ------------------------------
---v1 Respo Created: Respo created, added MIT license, started the project.
+v1 Respo Created: Respo created, added MIT license, started the project.
+
+--v2 Basic html: basic html called html_intro.html
 
