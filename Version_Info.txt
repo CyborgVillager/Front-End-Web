@@ -28,5 +28,8 @@ v6 Txt Info Summary: quick updated files line_break, sub_script, and txt_info_su
 v7 Connect Pages & List: created 2 new files connect pages.html which just connects it to other pages that are on Html/
                             and made lists that has basic list info.
 
---v8 Spacing/Tables: New files created spacing & width table, spanning table row, table basic, and table head .html files
+v8 Spacing/Tables: New files created spacing & width table, spanning table row, table basic, and table head .html files
                         just the quick summary of making tables/span info.
+
+--v9 Update README.md: updated readme, to assist/give more details/guidance once a new user to front end-dev can start a project
+                    and make a front end site similiar to my portfolio/get them started on testing their skill and wits!
