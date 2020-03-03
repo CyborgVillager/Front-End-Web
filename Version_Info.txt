@@ -19,5 +19,6 @@ v2 Basic html: basic html called html_intro.html
 
 v3 Html/Css Basic: css included to change color of the page/text
 
---v4 html_int0: new file, just basic info for html
+v4 html_int0: new file, just basic info for html
 
+--v5 Basic Headings & Title: added 2 new files just the basics of having the page tab name, and headings for a page.
