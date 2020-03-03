@@ -21,4 +21,6 @@ v3 Html/Css Basic: css included to change color of the page/text
 
 v4 html_int0: new file, just basic info for html
 
---v5 Basic Headings & Title: added 2 new files just the basics of having the page tab name, and headings for a page.
+v5 Basic Headings & Title: added 2 new files just the basics of having the page tab name, and headings for a page.
+
+--v6 Txt Info Summary: quick updated files line_break, sub_script, and txt_info_summary.html for text based info
