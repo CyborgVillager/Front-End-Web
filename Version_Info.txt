@@ -34,5 +34,9 @@ v8 Spacing/Tables: New files created spacing & width table, spanning table row, 
 v9 Update README.md: updated readme, to assist/give more details/guidance once a new user to front end-dev can start a project
                     and make a front end site similiar to my portfolio/get them started on testing their skill and wits!
 
---v10 Form: added new file form0.html, have basic summary of making a form format, feel free to check it out, and learn
+v10 Form: added new file form0.html, have basic summary of making a form format, feel free to check it out, and learn
               something new .
+
+--v11 Intro to CSS: made new folder called CSS, that holds html & css folders as sub dir. Will be updating this as reference
+                    next morning of 3/4/20
+
