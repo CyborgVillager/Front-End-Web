@@ -37,6 +37,11 @@ v9 Update README.md: updated readme, to assist/give more details/guidance once a
 v10 Form: added new file form0.html, have basic summary of making a form format, feel free to check it out, and learn
               something new .
 
---v11 Intro to CSS: made new folder called CSS, that holds html & css folders as sub dir. Will be updating this as reference
+v11 Intro to CSS: made new folder called CSS, that holds html & css folders as sub dir. Will be updating this as reference
                     next morning of 3/4/20
+
+
+--v12 Update for Respo: will be including CSS, JS, and React Info as more updated versions come through this respo. For now
+                        will be working on CSS then be building to JS and lastly React tutorials.
+
 
