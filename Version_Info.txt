@@ -31,5 +31,8 @@ v7 Connect Pages & List: created 2 new files connect pages.html which just conne
 v8 Spacing/Tables: New files created spacing & width table, spanning table row, table basic, and table head .html files
                         just the quick summary of making tables/span info.
 
---v9 Update README.md: updated readme, to assist/give more details/guidance once a new user to front end-dev can start a project
+v9 Update README.md: updated readme, to assist/give more details/guidance once a new user to front end-dev can start a project
                     and make a front end site similiar to my portfolio/get them started on testing their skill and wits!
+
+--v10 Form: added new file form0.html, have basic summary of making a form format, feel free to check it out, and learn
+              something new .

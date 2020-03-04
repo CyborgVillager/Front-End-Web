@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form0 Intro</title>
+</head>
+<body>
+<form action="rurlforform">
+    <b><p>Username:</b>
+    <input type="text" name="username" size="20" maxlength="50" required="required">
+    </p>
+    <b><p>Password:</b>
+         <input type="text" name="password" size="20" maxlength="50" required="required">
+    </p>
+    <!--Submit after user finished their info-->
+  <input type="submit" value="Submit"/>
+
+    <br>
+    <b><p> Describe your self ! </p></b>
+    <textarea type="text" name="" value=""  cols="45" rows="6"
+              class="form-control" placeholder="Enter Here (^_^)" ></textarea>
+
+
+</form>
+
+
+<h3> Interested in learning on making text in html disappear when clicked, a bit further?</h3>
+<p>Click <a href="https://stackoverflow.com/questions/1626107/text-in-html-field-to-disappear-when-clicked" target="_blank">
+    Here!</a></p>
+
+<hr/>
+<h3> Radio Buttons0</h3>
+<!--Center Info to ask user to click on their gender-->
+<div style="text-align: center;">
+    <b><h2> Click on your gender</h2></b>
+</div>
+
+<!--Style-->
+<!--Radio Style-->
+<style>
+    input[type=radio] {
+
+    width: 100%;
+    height: 2em;
+}
+</style>
+
+<!--Font Size-->
+<span style="font-size: x-large; ">
+
+    <!--Gender Choices-->
+    <!--Male-->
+        <input type="radio" name="gender" value="male" checked="checked"> Male
+    <!--Female-->
+        <input type="radio" name="gender" value="female" size="10"/> Female
+    <!-Attack Helicopter-->
+        <input type="radio" name="gender" value="attack_heli" size="10"/> Attack Helicopter
+</span>
+
+<br/>
+<hr/>
+<h3> Check Boxes</h3>
+
+<b><p>Select your age range</p></b>
+
+<!--Font Size-->
+<span style="font-size: x-large; ">
+
+<input type="checkbox" name="favcolor" value="yellow" >Yellow
+<input type="checkbox" name="favcolor" value="orange" >Orange
+<input type="checkbox" name="favcolor" value="purple" >Purple
+<input type="checkbox" name="favcolor" value="green" >Green
+<input type="checkbox" name="favcolor" value="blue" >Blue
+<input type="checkbox" name="favcolor" value="all" >All
+<input type="checkbox" name="favcolor" value="na" >Not on Here
+</span>
+
+<hr/>
+<h3>Drop Down</h3>
+<b><p>Which os do you use?</p></b>
+<select name="os">
+    <option value="linux">Linux</option>
+    <option value="windows">Windows</option>
+    <option value="apple">Apple</option>
+</select>
+
+<!-- Space/barrier-->
+<br/>
+<br/>
+<hr/>
+<br/>
+<br/>
+
+
+<h2> Select Multiple Boxes</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent finibus vel erat ut sodales. Donec ultrices felis ex,
+    sit amet pharetra elit commodo sit amet.</p>
+<select name="color" size="5" multiple="multiple">
+    <option value="yellow">Yellow</option>
+    <option value="red">Red</option>
+    <option value="orange">Orange</option>
+    <option value="purple">Purple</option>
+    <option value="green">Green</option>
+    <option value="all">All Colors</option>
+    <option value="na">Color not on here</option>
+</select>
+<hr/>
+<br>
+<br>
+
+<h2> File Upload</h2>
+<p> Just upload your file here!</p>
+
+<form action="link to upload,etc,etc" method="post">
+    <input type="file" name="video_upload" /><br/>
+    <input type="submit" value="Upload"/>
+</form>
+<hr/>
+<h3> Date</h3>
+<label for="schedule">Schedule</label>
+<input type="date" name="depart"/>
+<input type="submit" value="Submit"/>
+
+<hr/>
+<!-- Search Input-->
+<h2> Search</h2>
+<p>Search:</p>
+<input type="search" name="search" placeholder="Enter here"/>
+<input type="submit" value="Search"/>
+
+
+
+</body>
+</html>
