@@ -1,40 +1,42 @@
-<!-- Gets all elements from the page -->
+/*  Gets all elements from the page */
 * {
     font-family: Roboto;
 
 }
+/* Body */
 body {
     background-color: darkgrey;
     padding: 25px;
     border: 10px solid #11FF00;
 }
-
+/* Header1 */
 h1 {
     font-family: "Droid Serif", "DejaVu Serif", "STIX", serif;
     color: red;
 }
 
+/* Header2 */
 h2 {
     font-family: "Fira Code Medium";
     color: #6E08F3;
 }
-
+/* paragraph id=intro_begin */
 p#intro_begin{
     font-size: 100%;
     font-weight: bold;
 }
-
+/* paragraph id=intro_begin1 */
 p#intro_begin1{
     font-size: 85%;
     font-family: "Roboto Thin";
 }
-
+/* paragraph id=mid_tortiose_info */
 p#mid_tortiose_info{
     font-size: 150%;
     font-family: Arial, Helvetica, sans-serif;
     color: #370EFF
 }
-
+/* paragraph id=itla */
 p#itla{
     font-style: italic;
 }

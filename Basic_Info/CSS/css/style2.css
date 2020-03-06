@@ -1,0 +1,29 @@
+/* Body  */
+body {
+    background-color: grey;
+
+}
+/* h1 Intro Title & int para Info */
+h1#intro{
+    color: #6E08F3;
+    font-weight: bolder;
+    font-size: 150%;
+}
+
+p#int_para{
+    font-family: Roboto;
+    font-style: italic;
+    color: mediumvioletred;
+    background-color: #11FF00;
+}
+
+/* h2 Intro SubHeading & int subpara Info */
+h2#intro_subheading{
+    color: #11FF00;
+    background-color: cornflowerblue;
+
+}
+p#sub_heading_para{
+    color: aqua;
+    background-color: chocolate;
+}

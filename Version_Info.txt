@@ -60,6 +60,8 @@ v15 Basic lvl2 CSS Implement: 2 new files style1 & html2_basic_css_extra_info, t
                     Link to further CSS properties: https://www.w3schools.com/cssref/pr_font_font-style.asp
 
 
---v16 Updated style1: updated style body info to include padding & a border, to show other possibilities for site creation
+v16 Updated style1: updated style body info to include padding & a border, to show other possibilities for site creation
                         using css.
 
+--v17 Txt Color: updated comments for style1.css for extra info , new file html_css_bckground_info for basic html using
+                    css style2, which just colors/give each specific id their own colors/background color
