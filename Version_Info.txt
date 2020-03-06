@@ -46,9 +46,16 @@ v12 Update for Respo: will be including CSS, JS, and React Info as more updated 
 
 v13 CSS Update: CSS will be updated shortly.
 
---v14 Basic CSS Implement: new files @ CSS , style0.css & html1.html were updated, just included basic info on how to combine html
+14 Basic CSS Implement: new files @ CSS , style0.css & html1.html were updated, just included basic info on how to combine html
                 & css together / mix up or combine certain aspects
 
                 Link to RGB color code -> https://www.rapidtables.com/web/color/RGB_Color.html
+ ----------------------------    ----------------------------   ------------------------- ------------------------------
+--v15 Basic lvl2 CSS Implement: 2 new files style1 & html2_basic_css_extra_info, that goes into a bit more in-depth
+                        for css implement with new addons for 'page features' images, going to 'top' of page, different
+                        variants on using css to your advantage to give your site a bit more visual appeal/functionality
+                        these 2 files just put all of that info into this. Pretty much show you the potential of combining
+                        the both of them together.
 
+                    Link to further CSS properties: https://www.w3schools.com/cssref/pr_font_font-style.asp
 
