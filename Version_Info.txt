@@ -41,7 +41,9 @@ v11 Intro to CSS: made new folder called CSS, that holds html & css folders as s
                     next morning of 3/4/20
 
 
---v12 Update for Respo: will be including CSS, JS, and React Info as more updated versions come through this respo. For now
+v12 Update for Respo: will be including CSS, JS, and React Info as more updated versions come through this respo. For now
                         will be working on CSS then be building to JS and lastly React tutorials.
+
+--v13 CSS Update: CSS will be updated shortly.
 
 
