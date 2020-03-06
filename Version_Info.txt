@@ -44,6 +44,11 @@ v11 Intro to CSS: made new folder called CSS, that holds html & css folders as s
 v12 Update for Respo: will be including CSS, JS, and React Info as more updated versions come through this respo. For now
                         will be working on CSS then be building to JS and lastly React tutorials.
 
---v13 CSS Update: CSS will be updated shortly.
+v13 CSS Update: CSS will be updated shortly.
+
+--v14 Basic CSS Implement: new files @ CSS , style0.css & html1.html were updated, just included basic info on how to combine html
+                & css together / mix up or combine certain aspects
+
+                Link to RGB color code -> https://www.rapidtables.com/web/color/RGB_Color.html
 
 
