@@ -87,5 +87,7 @@ v19 CSS Box & Update: further update v18 file, to include 'author name' and the 
                             link for more css bullet point info: https://css-tricks.com/almanac/properties/l/list-style/
 
 
---v22 Fixed Info |x_x|: fixed v21 CSS Bullet Points, now images can be shown as bullet points, with the correct info
+v22 Fixed Info |x_x|: fixed v21 CSS Bullet Points, now images can be shown as bullet points, with the correct info
                         for lower-greek symbol symbol bullet point as well.
+
+--v23 CSS Table: 2 new files style5.css & css_table . Custom table with css implement.

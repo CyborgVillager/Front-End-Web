@@ -1,0 +1,64 @@
+/* Body */
+body{
+    color: black;
+}
+
+/* Header1 */
+h1{
+    font-weight: bolder;
+}
+
+/* Table */
+table{
+    width: 800px;
+}
+
+/* Table Info Font size */
+.table_info{
+    font-size: 20px;
+}
+
+/* Txt 'Border' for Table Categories */
+th{
+    text-transform: uppercase;
+    font-size: 115%;
+    border-bottom: 2px solid darkgreen;
+    border-top: 1px solid orange;
+    text-align: left;
+}
+
+/* Padding */
+td{
+    padding: 15px 0px 12px 10px;
+}
+
+/* User Verified */
+.verified{
+     font-style: italic;
+}
+
+/* Username */
+.username{
+    text-align: left;
+}
+/* UserVerified font style */
+.userveri{
+    font-style: italic;
+}
+/* Email */
+.email{
+    text-align: center;
+
+}
+
+/* Darkend Table */
+.table_dark{
+    background-color: whitesmoke;
+}
+
+/* Hovering once user's mouse is above the table info */
+tr:hover{
+    background-color: greenyellow;
+    font-weight: bold;
+    font-size: 105%;
+}
