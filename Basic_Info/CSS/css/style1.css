@@ -5,6 +5,8 @@
 }
 body {
     background-color: darkgrey;
+    padding: 25px;
+    border: 10px solid #11FF00;
 }
 
 h1 {
@@ -36,3 +38,4 @@ p#mid_tortiose_info{
 p#itla{
     font-style: italic;
 }
+

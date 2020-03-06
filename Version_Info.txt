@@ -51,11 +51,15 @@ v13 CSS Update: CSS will be updated shortly.
 
                 Link to RGB color code -> https://www.rapidtables.com/web/color/RGB_Color.html
  ----------------------------    ----------------------------   ------------------------- ------------------------------
---v15 Basic lvl2 CSS Implement: 2 new files style1 & html2_basic_css_extra_info, that goes into a bit more in-depth
+v15 Basic lvl2 CSS Implement: 2 new files style1 & html2_basic_css_extra_info, that goes into a bit more in-depth
                         for css implement with new addons for 'page features' images, going to 'top' of page, different
                         variants on using css to your advantage to give your site a bit more visual appeal/functionality
                         these 2 files just put all of that info into this. Pretty much show you the potential of combining
                         the both of them together.
 
                     Link to further CSS properties: https://www.w3schools.com/cssref/pr_font_font-style.asp
+
+
+--v16 Updated style1: updated style body info to include padding & a border, to show other possibilities for site creation
+                        using css.
 
