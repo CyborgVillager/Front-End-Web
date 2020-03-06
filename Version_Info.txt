@@ -63,5 +63,10 @@ v15 Basic lvl2 CSS Implement: 2 new files style1 & html2_basic_css_extra_info, t
 v16 Updated style1: updated style body info to include padding & a border, to show other possibilities for site creation
                         using css.
 
---v17 Txt Color: updated comments for style1.css for extra info , new file html_css_bckground_info for basic html using
+v17 Txt Color: updated comments for style1.css for extra info , new file html_css_bckground_info for basic html using
                     css style2, which just colors/give each specific id their own colors/background color
+
+--v18 Updated: Updated html2_basic_css_extra_info.html to show more feature for css 'link' choice & other updates via comments
+                updated style1.css to make the changes to the site. Pretty good way to get a good understanding of css,
+                hopefully this will be good enough to get anybody new to this get a good start! I really enjoy making / and seeing
+                stuff like this grow, and put it to good use to further increase humanities understanding of code & tech!

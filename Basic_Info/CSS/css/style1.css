@@ -26,9 +26,11 @@ p#intro_begin{
     font-weight: bold;
 }
 /* paragraph id=intro_begin1 */
-p#intro_begin1{
-    font-size: 85%;
+p#intro_begin1:first-letter{
+    font-weight: bold;
+    font-size: 205%;
     font-family: "Roboto Thin";
+    color:red;
 }
 /* paragraph id=mid_tortiose_info */
 p#mid_tortiose_info{
@@ -39,5 +41,30 @@ p#mid_tortiose_info{
 /* paragraph id=itla */
 p#itla{
     font-style: italic;
+}
+p#first:first-line{
+    font-weight: bold;
+    font-family: Arial;
+    color:#D5CF11;
+}
+/* User link click/hover */
+/* Link color red */
+a:link{
+    color:red;
+    }
+
+/* Tells user via color code that they already visited the link */
+a:visited{
+    color: black;
+}
+/* When user is hovering over the link/underline & changes size */
+a:hover{
+    color: mediumvioletred;
+    text-decoration: underline;
+    font-size: 120%;
+}
+/* When user clicks on it turns aquad to signify they clicked on it */
+a:active{
+    color: aqua;
 }
 
