@@ -80,8 +80,12 @@ v19 CSS Box & Update: further update v18 file, to include 'author name' and the 
                         from style3.css .
 
 
- --v21 CSS Bullet Points <-x_x->: file bullet_pts.html , you can see on how to implement 'bullet points'. Currently
+ v21 CSS Bullet Points <-x_x->: file bullet_pts.html , you can see on how to implement 'bullet points'. Currently
                                 working on putting your own images as bullet points. Bug at the moment in which its
                                 not showing. Will be fixing this issue, before continuing on the tutorial .
 
                             link for more css bullet point info: https://css-tricks.com/almanac/properties/l/list-style/
+
+
+--v22 Fixed Info |x_x|: fixed v21 CSS Bullet Points, now images can be shown as bullet points, with the correct info
+                        for lower-greek symbol symbol bullet point as well.

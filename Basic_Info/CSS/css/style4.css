@@ -1,10 +1,18 @@
 ol {
+
     list-style-type: lower-greek;
 }
 ul{
     list-style-type: circle;
 }
 
-ul#image{list-style-image: url("../../images/yin_and_yang.jpg");}
+ul#imginfo{
+    list-style-image: url("../../images/robot_arm.png");
+}
+li{
+
+    margin: 10px 0px 0px 25px;
+}
+
 
 
