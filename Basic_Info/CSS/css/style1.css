@@ -9,6 +9,12 @@ body {
     padding: 25px;
     border: 10px solid #11FF00;
 }
+/* Text-right for author -> optional */
+p#author{
+    text-align: right;
+    font-weight: bold;
+    color: black;
+}
 /* Header1 */
 h1 {
     font-family: "Droid Serif", "DejaVu Serif", "STIX", serif;
@@ -20,6 +26,7 @@ h2 {
     font-family: "Fira Code Medium";
     color: #6E08F3;
 }
+
 /* paragraph id=intro_begin */
 p#intro_begin{
     font-size: 100%;

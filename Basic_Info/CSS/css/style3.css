@@ -1,0 +1,26 @@
+body{
+    background-color: purple;
+}
+div{
+    background-color:blue;
+    color: black;
+    height: 95%;
+    width: 85%;
+
+}
+h1#intro_begin {
+    height: 400px;
+    width: 500px;
+    background-color: #D5CF11;
+}
+p{
+    height: 150px;
+    width: 250px;
+    background-color: orange;
+}
+p#intro_begin1{
+    height: 200px;
+    width: 300px;
+    background-color: orange;
+    font-weight: bold;
+}
