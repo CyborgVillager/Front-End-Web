@@ -76,5 +76,12 @@ v19 CSS Box & Update: further update v18 file, to include 'author name' and the 
                             see the author's email if the user would like to get into contact with the author.
                             Besides that new file just to show css boxes
  ----------------------------    ----------------------------   ------------------------- ------------------------------
- --v20 CSS Implement: new file html_box_css & style3 just shows on how css can implement a 'box' for certain information
+ v20 CSS Implement: new file html_box_css & style3 just shows on how css can implement a 'box' for certain information
                         from style3.css .
+
+
+ --v21 CSS Bullet Points <-x_x->: file bullet_pts.html , you can see on how to implement 'bullet points'. Currently
+                                working on putting your own images as bullet points. Bug at the moment in which its
+                                not showing. Will be fixing this issue, before continuing on the tutorial .
+
+                            link for more css bullet point info: https://css-tricks.com/almanac/properties/l/list-style/
