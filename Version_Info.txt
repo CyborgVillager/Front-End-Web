@@ -110,7 +110,9 @@ v25 Static Site Layout: made a static_layout.html file which shows what a 'stati
                                 user's screen size is small, the site will modify to fit that small screen size.
                                 If the screen size is big, the screen will modify to fit that big screen size, etc,etc.
 
---v27 Image CSS: made new file called image_css.html to show on how you can use an image with css implements. The background
+v27 Image CSS: made new file called image_css.html to show on how you can use an image with css implements. The background
                     is a bit 'ugly' but it shows the concept of using images with the aid of css/html.
 
                     * New image added to folder images -> tristhpyramid.JPG
+
+--v28 JS/JQuery Begin: will start on js/jquery tut, new folder will hold the new info.
