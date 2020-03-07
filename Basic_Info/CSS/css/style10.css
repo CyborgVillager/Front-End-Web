@@ -1,0 +1,46 @@
+
+h1{
+   font-size: 125%;
+}
+hr{
+    padding: 10px;
+    background-color: darkgrey;
+}
+
+h4{
+    font-weight: bold;
+    font-size: 250%;
+    color: #c050a3 ;
+
+}
+p{
+    font-style: italic;
+   font-weight: bold;
+}
+img.large{
+    width: 85%;
+    height: 85%;
+}
+
+img.medium{
+    width: 55%;
+    height: 55%;
+}
+
+img.small{
+    width:30%;
+    height: 30%;
+}
+
+.image0info{
+    background-color: darkgreen;
+    padding: 5px;
+}
+.image1info{
+    background-color: darkgrey;
+    padding: 5px;
+}
+.image2info{
+    background-color: darkgreen;
+    padding: 5px;
+}
