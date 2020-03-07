@@ -96,7 +96,7 @@ v24 Random Blog Post: made 2 new html files random_blog_quote & quote1. the firs
                         is a bit more organized. You can see the 'design' of it by comparing both of them. Hopefully this will
                         give you some ideas ^_*
 
---v25 Static Site Layout: made a static_layout.html file which shows what a 'static' site looks like. short summary, its
+v25 Static Site Layout: made a static_layout.html file which shows what a 'static' site looks like. short summary, its
                             not dynamic to the users screen size, so any changes to the 'orignal height/width' will probably
                             look messed up on the user end which doesnt have the same information as the master version.
                             Good way to fixed this is via dynamic web page.
@@ -104,3 +104,8 @@ v24 Random Blog Post: made 2 new html files random_blog_quote & quote1. the firs
                             * Thinking of taking snippets of the done version, and place their images onto the respo to give
                             a good understanding on what the finished version looks like after implementing the code onto
                             it.
+ ----------------------------    ----------------------------   ------------------------- ------------------------------
+ --v26 ITS ALIVE! Dynamic Site: new file called dyam_site.html now takes into the user's screen size and modify it self
+                                according to its style9.css percentage and fits onto the user's dynamic screen. If the
+                                user's screen size is small, the site will modify to fit that small screen size.
+                                If the screen size is big, the screen will modify to fit that big screen size, etc,etc.

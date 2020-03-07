@@ -1,0 +1,64 @@
+/* body info */
+body{
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* page_content info */
+#page_content{
+    overflow: auto;
+    height: 50%;
+}
+
+/* combine css information for navigation, feature_info, & the footer bar */
+#navigation, #feature_info, #footer{
+    background-color: darkgrey;
+    font-size: 125%;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+/* feature info, bolds & color it purple/pinkish */
+#feature_info{
+    font-weight: bold;
+    color: #c050a3 ;
+
+}
+
+/* acquires info from classes with the name blog_post#, and input its CSS onto the html file */
+.blog_post0,.blog_post1,.blog_post2,.blog_post3,.blog_post4,.blog_post5{
+    background-color: darkgreen;
+    width: 31%;
+    height: 20%;
+    float: left;
+    font-style: italic;
+    font-weight: bold;
+    margin:1%;
+    color: yellow;
+}
+/* justs inline & pads it by 5pixels for the navigation bar, which gives it that 'horizontal' look */
+li {
+    display: inline;
+    padding: 5px;
+}
+
+/* User link click/hover */
+/* Link color red */
+a:link{
+    color:blue;
+    }
+
+/* Tells user via color code that they already visited the link */
+a:visited{
+    color: black;
+}
+/* When user is hovering over the link/underline & changes size */
+a:hover{
+    color: mediumvioletred;
+    text-decoration: underline;
+    font-size: 120%;
+}
+/* When user clicks on it turns aquad to signify they clicked on it */
+a:active{
+    color: aqua;
+}
