@@ -92,6 +92,15 @@ v22 Fixed Info |x_x|: fixed v21 CSS Bullet Points, now images can be shown as bu
 
 v23 CSS Table: 2 new files style5.css & css_table . Custom table with css implement.
 
---v24 Random Blog Post: made 2 new html files random_blog_quote & quote1. the first one has 'random' blog quotes the other
+v24 Random Blog Post: made 2 new html files random_blog_quote & quote1. the first one has 'random' blog quotes the other
                         is a bit more organized. You can see the 'design' of it by comparing both of them. Hopefully this will
                         give you some ideas ^_*
+
+--v25 Static Site Layout: made a static_layout.html file which shows what a 'static' site looks like. short summary, its
+                            not dynamic to the users screen size, so any changes to the 'orignal height/width' will probably
+                            look messed up on the user end which doesnt have the same information as the master version.
+                            Good way to fixed this is via dynamic web page.
+
+                            * Thinking of taking snippets of the done version, and place their images onto the respo to give
+                            a good understanding on what the finished version looks like after implementing the code onto
+                            it.
