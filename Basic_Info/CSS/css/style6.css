@@ -1,0 +1,23 @@
+body{
+    width: 750px;
+    font-family: Roboto;
+
+}
+
+p {
+    width: 230px;
+    float: right;
+    margin: 8px;
+    padding: 12px;
+    color: black;
+    background-color: #FF6003;
+}
+
+.blogright {
+    width: 230px;
+    float: left;
+    margin: 15px;
+    padding: 20px;
+    color: orange;
+    background-color: purple;
+}
