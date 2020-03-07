@@ -105,7 +105,7 @@ v25 Static Site Layout: made a static_layout.html file which shows what a 'stati
                             a good understanding on what the finished version looks like after implementing the code onto
                             it.
  ----------------------------    ----------------------------   ------------------------- ------------------------------
- v26 ITS ALIVE! Dynamic Site: new file called dyam_site.html now takes into the user's screen size and modify it self
+v26 ITS ALIVE! Dynamic Site: new file called dyam_site.html now takes into the user's screen size and modify it self
                                 according to its style9.css percentage and fits onto the user's dynamic screen. If the
                                 user's screen size is small, the site will modify to fit that small screen size.
                                 If the screen size is big, the screen will modify to fit that big screen size, etc,etc.
@@ -115,4 +115,8 @@ v27 Image CSS: made new file called image_css.html to show on how you can use an
 
                     * New image added to folder images -> tristhpyramid.JPG
 
---v28 JS/JQuery Begin: will start on js/jquery tut, new folder will hold the new info.
+v28 JS/JQuery Begin: will start on js/jquery tut, new folder will hold the new info.
+
+--v29 Greeting JS: basic js greeting @ new folder js_and_jquery. js folder hold the js file time_greet.js. time_greet.html
+                    has html info & style0.css has the css info. basic summary of using js to be used for a web-page.
+                    made basic additions to the file to show some visual examples of combining, html->css and js together.

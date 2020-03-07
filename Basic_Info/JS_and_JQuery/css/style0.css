@@ -1,0 +1,43 @@
+/* body info */
+body{
+    background-color: darkgrey;
+}
+
+/* header1 info */
+h1{
+    font-weight: bold;
+    padding: 10px;
+    color: firebrick;
+}
+
+/* time image */
+img.time{
+    background-color: whitesmoke;
+    padding: 1%;
+    border-radius: 12%;
+    height: 120%;
+    float: right;
+
+
+}
+/* when the image is hovered over by user */
+img:hover {
+  box-shadow: 0 0 10px 10px;
+  color: blue;
+
+}
+/* greeting info that is part of js time_greet */
+.greeting{
+    color: yellow;
+    text-align: center;
+    font-size: 220%;
+    padding: .2%;
+    background-color: darkolivegreen;
+
+}
+
+/* paragraph info */
+p{
+    background-color: whitesmoke;
+    font-family: "Bitstream Vera Sans Mono", Monaco, "Courier New", Courier, monospace;
+}
