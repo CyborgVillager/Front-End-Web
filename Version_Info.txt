@@ -117,6 +117,13 @@ v27 Image CSS: made new file called image_css.html to show on how you can use an
 
 v28 JS/JQuery Begin: will start on js/jquery tut, new folder will hold the new info.
 
---v29 Greeting JS: basic js greeting @ new folder js_and_jquery. js folder hold the js file time_greet.js. time_greet.html
+v29 Greeting JS: basic js greeting @ new folder js_and_jquery. js folder hold the js file time_greet.js. time_greet.html
                     has html info & style0.css has the css info. basic summary of using js to be used for a web-page.
                     made basic additions to the file to show some visual examples of combining, html->css and js together.
+
+--v30 React: will get to work on putting some react tutorials, then build up to back end using python to give you a taste
+                of full-stack dev.
+
+                Its quite enjoyable making stuff like this. once this tut is complete will be making a 'template' that you
+                can use as a reference on making a front-end site. Will be making a wiki for this respo to show the finished
+                product for the site.
