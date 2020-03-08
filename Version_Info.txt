@@ -121,9 +121,11 @@ v29 Greeting JS: basic js greeting @ new folder js_and_jquery. js folder hold th
                     has html info & style0.css has the css info. basic summary of using js to be used for a web-page.
                     made basic additions to the file to show some visual examples of combining, html->css and js together.
 
---v30 React: will get to work on putting some react tutorials, then build up to back end using python to give you a taste
+v30 React: will get to work on putting some react tutorials, then build up to back end using python to give you a taste
                 of full-stack dev.
 
                 Its quite enjoyable making stuff like this. once this tut is complete will be making a 'template' that you
                 can use as a reference on making a front-end site. Will be making a wiki for this respo to show the finished
                 product for the site.
+
+--v31 Basic hello: basic hello for hello.html , just tells the user hello once they load the webpage.
