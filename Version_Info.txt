@@ -130,5 +130,9 @@ v30 React: will get to work on putting some react tutorials, then build up to ba
 
 v31 Basic hello: basic hello for hello.html , just tells the user hello once they load the webpage.
 
---v32 MSG.html & let: using let to declare a var/value. Besides that basic msg.html just tells the user hello & random
+v32 MSG.html & let: using let to declare a var/value. Besides that basic msg.html just tells the user hello & random
                         info alerts.
+
+
+--v33 Updated let/to do.html : updated the outdated info for var time_greet.html & included new file for a const called basic_todo.js
+                                that connects to basic_todo.html

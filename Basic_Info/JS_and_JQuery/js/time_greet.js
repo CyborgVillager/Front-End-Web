@@ -1,7 +1,7 @@
 /* Variables */
-var today = new Date();
-var hourNow = today.getHours()
-var greeting;
+let today = new Date();
+let hourNow = today.getHours()
+let greeting;
 
 /* Military Time */
 /* http://militarytimechart.com/ */
