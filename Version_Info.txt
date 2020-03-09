@@ -128,4 +128,7 @@ v30 React: will get to work on putting some react tutorials, then build up to ba
                 can use as a reference on making a front-end site. Will be making a wiki for this respo to show the finished
                 product for the site.
 
---v31 Basic hello: basic hello for hello.html , just tells the user hello once they load the webpage.
+v31 Basic hello: basic hello for hello.html , just tells the user hello once they load the webpage.
+
+--v32 MSG.html & let: using let to declare a var/value. Besides that basic msg.html just tells the user hello & random
+                        info alerts.
