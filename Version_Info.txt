@@ -110,29 +110,33 @@ v26 ITS ALIVE! Dynamic Site: new file called dyam_site.html now takes into the u
                                 user's screen size is small, the site will modify to fit that small screen size.
                                 If the screen size is big, the screen will modify to fit that big screen size, etc,etc.
 
-v27 Image CSS: made new file called image_css.html to show on how you can use an image with css implements. The background
+v27 Image CSS: Made new file called image_css.html to show on how you can use an image with css implements. The background
                     is a bit 'ugly' but it shows the concept of using images with the aid of css/html.
 
                     * New image added to folder images -> tristhpyramid.JPG
 
 v28 JS/JQuery Begin: will start on js/jquery tut, new folder will hold the new info.
 
-v29 Greeting JS: basic js greeting @ new folder js_and_jquery. js folder hold the js file time_greet.js. time_greet.html
+v29 Greeting JS: Basic js greeting @ new folder js_and_jquery. js folder hold the js file time_greet.js. time_greet.html
                     has html info & style0.css has the css info. basic summary of using js to be used for a web-page.
                     made basic additions to the file to show some visual examples of combining, html->css and js together.
 
-v30 React: will get to work on putting some react tutorials, then build up to back end using python to give you a taste
+v30 React: Will get to work on putting some react tutorials, then build up to back end using python to give you a taste
                 of full-stack dev.
 
                 Its quite enjoyable making stuff like this. once this tut is complete will be making a 'template' that you
                 can use as a reference on making a front-end site. Will be making a wiki for this respo to show the finished
                 product for the site.
 
-v31 Basic hello: basic hello for hello.html , just tells the user hello once they load the webpage.
+v31 Basic hello: Basic hello for hello.html , just tells the user hello once they load the webpage.
 
-v32 MSG.html & let: using let to declare a var/value. Besides that basic msg.html just tells the user hello & random
+v32 MSG.html & let: Using let to declare a var/value. Besides that basic msg.html just tells the user hello & random
                         info alerts.
 
-
---v33 Updated let/to do.html : updated the outdated info for var time_greet.html & included new file for a const called basic_todo.js
+ ----------------------------    ----------------------------   ------------------------- ------------------------------
+v33 Updated let/to do.html : Updated the outdated info for var time_greet.html & included new file for a const called basic_todo.js
                                 that connects to basic_todo.html
+
+--v34 Forloop: New forloop statement.js & html file. Will be working on the react version now. If you would like to get a bit
+                    more in-depth for JS then check this video out by Dev Ed for more info:
+                    https://www.youtube.com/watch?v=WZQc7RUAg18
