@@ -20,12 +20,18 @@ import {render} from "react-dom";
         {
           id: 3,
           title: 'HW',
-          completed: true
+          completed: false
         },
       ]
     }
-    markComplete = () => {
-      console.log('from app.js')
+    markComplete = (id) => {
+      this.setState({todos: this.state.todos.map(todo => {
+        if(todo.id == id){
+            todo.completed = !todo.completed
+        }
+        return todo;
+        })
+      });
     }
 
  render(){

@@ -176,8 +176,11 @@ v41 Custom Logo: custom logo / modified App.js, will be making this into a todo 
 v42 ToDos information : new file Todos.js, to make a 'todo' list, modified the file for the list
 				--v42.5 Updated version information: fixed version #
 
---v43 ToDo Line-Through & extend: changes to the file to allow, line through/ made new files in components/ & modified App.js
+v43 ToDo Line-Through & extend: changes to the file to allow, line through/ made new files in components/ & modified App.js
 					TodoItem.js, and Todos.js
 
---v44 TODO: once a user clicks on 'markcomplete' @ Todoitem.js -> onChange=[this.props.markComplete} the code will go to Todos.js and
+v44 TODO: once a user clicks on 'markcomplete' @ Todoitem.js -> onChange=[this.props.markComplete} the code will go to Todos.js and
 		run markComplete which connects to App.js. Once that happens a txt will apear via console 'from app.js'
+ ----------------------------    ----------------------------   ------------------------- ------------------------------
+--v45 Updated Checks: once user clicks on a topic to check off their todo, a line-through will appear signifying that they
+			have completed their tasks at hand.
