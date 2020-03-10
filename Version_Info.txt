@@ -148,5 +148,11 @@ v35 Testing Nav: testing nav by fireship that uses js & css, will modify/condise
                     sense of coding or to get an idea if your still on the fence for IT dev.
 
 
---v36 Modified CSS: modified css information for better reference material/help inform of what each info does for the site
+v36 Modified CSS: modified css information for better reference material/help inform of what each info does for the site
                         design/.html layout.
+
+
+--v37 Commented & Updated Info: updated .html to include comments to further detail what code does what for the nav bar info. Its
+                        pretty much done at the moment, good reference to look at when making a front end site with
+                        navigation using both css & js information.
+ ----------------------------    ----------------------------   ------------------------- ------------------------------

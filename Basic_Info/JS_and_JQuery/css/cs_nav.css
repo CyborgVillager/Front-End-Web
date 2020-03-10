@@ -26,8 +26,10 @@ white is a bit too 'bright' for my eyes while testing the code, will be darkgrey
 
 /* scroll bar width size */
 body::-webkit-scrollbar {
-  width: 1.5rem;
+  width: .95rem;
+
 }
+
 /* background color for scrollbar empty space  */
 body::-webkit-scrollbar-track {
   background: black;
@@ -35,8 +37,13 @@ body::-webkit-scrollbar-track {
 
 /* scrollbar main color */
 body::-webkit-scrollbar-thumb {
+  border-radius: 10px;
   background: #78905a;
+/* Add's depth to the scrollbar more info -> https://css-tricks.com/custom-scrollbars-in-webkit/ */
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+
 }
+
 
 /* txt info -> margin left root info, font size or known as root em with padding --> */
 main {
@@ -90,6 +97,7 @@ main {
   margin-left: 1rem;
 }
 
+/* Img nav graphic */
 .nav-link svg {
   width: 2rem;
   min-width: 2rem;
