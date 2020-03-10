@@ -137,6 +137,12 @@ v32 MSG.html & let: Using let to declare a var/value. Besides that basic msg.htm
 v33 Updated let/to do.html : Updated the outdated info for var time_greet.html & included new file for a const called basic_todo.js
                                 that connects to basic_todo.html
 
---v34 Forloop: New forloop statement.js & html file. Will be working on the react version now. If you would like to get a bit
+v34 Forloop: New forloop statement.js & html file. Will be working on the react version now. If you would like to get a bit
                     more in-depth for JS then check this video out by Dev Ed for more info:
                     https://www.youtube.com/watch?v=WZQc7RUAg18
+
+--v35 Testing Nav: testing nav by fireship that uses js & css, will modify/condise the code for better usage for future
+                    projects. Good example & reference to use for future use.
+                    Their video link for the responsive nav: https://www.youtube.com/watch?v=biOMz4puGt8&t=98s
+                    They have some great content to learn / review from, would recommend if your planning to get a good
+                    sense of coding or to get an idea if your still on the fence for IT dev.
