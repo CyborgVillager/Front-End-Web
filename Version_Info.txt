@@ -178,3 +178,6 @@ v42 ToDos information : new file Todos.js, to make a 'todo' list, modified the f
 
 --v43 ToDo Line-Through & extend: changes to the file to allow, line through/ made new files in components/ & modified App.js
 					TodoItem.js, and Todos.js
+
+--v44 TODO: once a user clicks on 'markcomplete' @ Todoitem.js -> onChange=[this.props.markComplete} the code will go to Todos.js and
+		run markComplete which connects to App.js. Once that happens a txt will apear via console 'from app.js'

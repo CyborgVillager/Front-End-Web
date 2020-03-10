@@ -24,6 +24,9 @@ import {render} from "react-dom";
         },
       ]
     }
+    markComplete = () => {
+      console.log('from app.js')
+    }
 
  render(){
 
@@ -41,7 +44,7 @@ import {render} from "react-dom";
           <i> ^_*</i>
         </p>
       </header>
- <Todos todos={this.state.todos}/>
+ <Todos todos={this.state.todos} markComplete={this.markComplete}/>
 
     </div>
   );
