@@ -147,6 +147,11 @@ v35 Testing Nav: testing nav by fireship that uses js & css, will modify/condise
                     They have some great content to learn / review from, would recommend if your planning to get a good
                     sense of coding or to get an idea if your still on the fence for IT dev.
                     -> original github code link: https://github.com/fireship-io/222-responsive-icon-nav-css
+                    -> forked respo: https://github.com/CyborgVillager/222-responsive-icon-nav-css
+
+                   Edit: As of now the custom updated navbar with comments will be in here, if I update the forked respo it will
+                   be used for another reference. But as of now custom_nav.html & its other information will suffice enough.
+                   Simplier is better espacially in the coding world
 
 
 v36 Modified CSS: modified css information for better reference material/help inform of what each info does for the site
@@ -158,4 +163,7 @@ v37 Commented & Updated Info: updated .html to include comments to further detai
                         navigation using both css & js information.
  ----------------------------    ----------------------------   ------------------------- ------------------------------
 
- --v38 React Intro: react start, will update shortly.
+ v38 React Intro: react start, will update shortly.
+
+ --v39 React Installed: basic files installed to get react proj to start. Hello introduction @ index.js -> React/react_project
+ pycharm quick tutorial: https://www.jetbrains.com/help/pycharm/npm-tool-window.html
