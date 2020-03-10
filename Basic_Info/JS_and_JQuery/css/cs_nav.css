@@ -1,43 +1,56 @@
 :root {
   font-size: 16px;
-  font-family: 'Open Sans';
+  font-family: 'Roboto';
+/* Theme of the app */
   --text-primary: #b6b6b6;
   --text-secondary: #ececec;
-  --bg-primary: #23232e;
-  --bg-secondary: #141418;
-  --transition-speed: 600ms;
+/*  Navbar main color */
+  --bg-primary:  black;
+/* Nav Bar Arrow Logo, basically shows your site nav with animation using cs_nav.js */
+  --bg-secondary: black;
+/* Animation speed once user cursor is on the navbar 700 is a good medium*/
+  --transition-speed: 700ms;
 }
-
+/* body info color, text,background,padding, margin */
 body {
   color: black;
-  background-color: white;
+/* background color, will modify to give user option to change colors
+white is a bit too 'bright' for my eyes while testing the code, will be darkgrey for the time being
+ */
+  background-color: darkgrey;
+/* margin of navbar */
   margin: 0;
+/* padding 4 navbar */
   padding: 0;
 }
 
+/* scroll bar width size */
 body::-webkit-scrollbar {
-  width: 0.25rem;
+  width: 1.5rem;
 }
-
+/* background color for scrollbar empty space  */
 body::-webkit-scrollbar-track {
-  background: #1e1e24;
+  background: black;
 }
 
+/* scrollbar main color */
 body::-webkit-scrollbar-thumb {
-  background: #6649b8;
+  background: #78905a;
 }
 
+/* txt info -> margin left root info, font size or known as root em with padding --> */
 main {
   margin-left: 5rem;
   padding: 1rem;
 }
 
+/* navbar position using bg-primary color which is on line 8, transition speed */
 .navbar {
   position: fixed;
   background-color: var(--bg-primary);
-  transition: width 600ms ease;
+  transition: width 500ms ease;
 }
-
+/* navbar ecetra info */
 .navbar-nav {
   list-style: none;
   padding: 0;
@@ -47,7 +60,7 @@ main {
   align-items: center;
   height: 100%;
 }
-
+/* navbar imgs width size */
 .nav-item {
   width: 100%;
 }
@@ -82,20 +95,29 @@ main {
   min-width: 2rem;
   margin: 0 1.5rem;
 }
+/* color when user hovers above the navbar information category
+  basically uses both primary & secondary to create a combination of both of them to give the images 'color'.
+  Test out some combinations from here: https://htmlcolorcodes.com/
+  and place them onto primary & secondary to see which fits your setting ^_*
 
+  for me yellow &  #df49a6 are a pretty good combo for me.
+ */
+
+/* primary color */
 .fa-primary {
-  color: #ff7eee;
+  color: yellow;
 }
-
+/* secondary color */
 .fa-secondary {
   color: #df49a6;
 }
-
+/* basically info fro primary & secondary transition speed */
 .fa-primary,
 .fa-secondary {
   transition: var(--transition-speed);
 }
 
+/* Your logo information once it appears after the navbar pops up */
 .logo {
   font-weight: bold;
   text-transform: uppercase;
@@ -107,12 +129,19 @@ main {
   letter-spacing: 0.3ch;
   width: 100%;
 }
-
+/* The Double arrows for your logo when the navbar is compress */
 .logo svg {
+    /* adding or neg the rotate will change the arrow from either pointing up or down
+    this is a good reference for possible future uses, when trying to lead user to see something or point them
+    to a direction*/
   transform: rotate(0deg);
+
+   /* transition speed  */
   transition: var(--transition-speed);
 }
-
+/* logo movement placement if its neg it will come left -> right
+if its positive, it will come right->left
+ */
 .logo-text
 {
   display: inline;
@@ -120,12 +149,14 @@ main {
   left: -999px;
   transition: var(--transition-speed);
 }
-
+/* Double arrows after logo has appeared, it will point toward the logo, any changes to rotate will change the direction
+check line 134->136 for more info regarding arrow logo placement
+ */
 .navbar:hover .logo svg {
   transform: rotate(-180deg);
 }
 
-/* Small screens */
+/* Small window screens */
 @media only screen and (max-width: 600px) {
   .navbar {
     bottom: 0;
@@ -150,7 +181,7 @@ main {
   }
 }
 
-/* Large screens */
+/* Large window screens */
 @media only screen and (min-width: 600px) {
   .navbar {
     top: 0;
