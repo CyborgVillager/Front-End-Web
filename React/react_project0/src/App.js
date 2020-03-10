@@ -1,29 +1,26 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import logo from './logo.svg';
 import './App.css';
+import Header from './components/layout/Header';
 import Todos from "./components/Todos";
-import {render} from "react-dom";
+import AddTodo from './components/AddTodo';
+import About from './components/pages/About';
+import uuid from 'react-uuid'
+import axios from 'axios';
+
 
   class App extends Component {
     state = {
-      todos: [
-        {
-          id: 1,
-          title: 'Take out the trash',
-          completed: false
-        },
-        {
-          id: 2,
-          title: 'Sushi',
-          completed: false
-        },
-        {
-          id: 3,
-          title: 'HW',
-          completed: false
-        },
-      ]
-    }
+    todos: []
+  };
+
+  componentDidMount() {
+    axios
+      .get('https://jsonplaceholder.typicode.com/todos?_limit=10')
+      .then(res => this.setState({ todos: res.data }));
+  }
+
     /* Once user checks off a task, it will update the TODo table signifying the completion of task */
     markComplete = (id) => {
       this.setState({todos: this.state.todos.map(todo => {
@@ -35,10 +32,28 @@ import {render} from "react-dom";
       });
     }
 
-/* Delete ToDo option */
-delTodo = (id) => {
-  this.setState({todos: [...this.state.todos.filter(todo => todo.id !== id)]});
-}
+
+  // Delete Todo
+  delTodo = id => {
+    axios.delete(`https://jsonplaceholder.typicode.com/todos/${id}`).then(res =>
+      this.setState({
+        todos: [...this.state.todos.filter(todo => todo.id !== id)]
+      })
+    );
+  };
+
+ // Add Todo
+  addTodo = title => {
+    axios
+      .post('https://jsonplaceholder.typicode.com/todos', {
+        title,
+        completed: false
+      })
+      .then(res => {
+        res.data.id = uuid.v4();
+        this.setState({ todos: [...this.state.todos, res.data] });
+      });
+  };
 
  render(){
 
@@ -46,9 +61,12 @@ delTodo = (id) => {
   /* import Todos/
   from import Todos from "./components/Todos"; */
 
-  return (
-    <div className="App">
-      <header className="App-header">
+ return (
+      <Router>
+        <div className="App">
+          <div className="container">
+            <Header />
+             <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h1>Application</h1>
         <p>
@@ -56,11 +74,25 @@ delTodo = (id) => {
           <i> ^_*</i>
         </p>
       </header>
- <Todos todos={this.state.todos} markComplete={this.markComplete}
- delTodo={this.delTodo}/>
-
-    </div>
-  );
+            <Route
+              exact
+              path="/"
+              render={props => (
+                <React.Fragment>
+                  <AddTodo addTodo={this.addTodo} />
+                  <Todos
+                    todos={this.state.todos}
+                    markComplete={this.markComplete}
+                    delTodo={this.delTodo}
+                  />
+                </React.Fragment>
+              )}
+            />
+            <Route path="/about" component={About} />
+          </div>
+        </div>
+      </Router>
+    );
 
     /* JSX end */
   }

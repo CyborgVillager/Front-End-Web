@@ -58,3 +58,21 @@ a {
     transform: rotate(360deg);
   }
 }
+
+.container {
+  background-color:#282c34;
+  padding: 0 1rem;
+}
+
+.btn {
+  display: inline-block;
+  border: none;
+  background: #555;
+  color: #fff;
+  padding: 7px 20px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #666;
+}

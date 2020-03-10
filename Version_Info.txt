@@ -185,5 +185,9 @@ v44 TODO: once a user clicks on 'markcomplete' @ Todoitem.js -> onChange=[this.p
 v45 Updated Checks: once user clicks on a topic to check off their todo, a line-through will appear signifying that they
 			have completed their tasks at hand.
 
---v46 Temp Del: deletion is availb, can now 'delete' a task, since this is front end/ has no db, the task will return, unless a db
+v46 Temp Del: deletion is availb, can now 'delete' a task, since this is front end/ has no db, the task will return, unless a db
 		has been created.
+
+--v47 Basic ToDO: basic todo list using react. will now be making a database for a front-end site template that will be
+			used as a tutorial. Besides that Ill be updating this respo until that db is completed, and implemented onto
+			a front end-site.
