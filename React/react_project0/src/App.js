@@ -1,28 +1,53 @@
-import React from 'react';
+import React, {Component} from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Todos from "./components/Todos";
+import {render} from "react-dom";
 
-function App() {
+  class App extends Component {
+    state = {
+      todos: [
+        {
+          id: 1,
+          title: 'Take out the trash',
+          completed: false
+        },
+        {
+          id: 2,
+          title: 'Sushi',
+          completed: false
+        },
+        {
+          id: 3,
+          title: 'HW',
+          completed: true
+        },
+      ]
+    }
+
+ render(){
+
   /* JSX start */
+  /* import Todos/
+  from import Todos from "./components/Todos"; */
+
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h1>Application</h1>
-
         <p>
           One step @ a time.
           <i> ^_*</i>
         </p>
-
       </header>
-    <Todos/>
+ <Todos todos={this.state.todos}/>
 
     </div>
   );
 
     /* JSX end */
-}
+  }
 
+}
 export default App;

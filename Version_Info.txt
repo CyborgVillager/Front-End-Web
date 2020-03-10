@@ -173,5 +173,8 @@ v40 Updated filename: updated folder from react_project to react_project0, will 
 v41 Custom Logo: custom logo / modified App.js, will be making this into a todo list format.
 			tutorial for a quick react -> https://www.youtube.com/watch?v=sBws8MSXN7A
 
---v42 ToDos information : new file Todos.js, to make a 'todo' list, modified the file for the list
+v42 ToDos information : new file Todos.js, to make a 'todo' list, modified the file for the list
 				--v42.5 Updated version information: fixed version #
+
+--v43 ToDo Line-Through & extend: changes to the file to allow, line through/ made new files in components/ & modified App.js
+					TodoItem.js, and Todos.js
