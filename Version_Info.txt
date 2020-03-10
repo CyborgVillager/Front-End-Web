@@ -165,5 +165,7 @@ v37 Commented & Updated Info: updated .html to include comments to further detai
 
  v38 React Intro: react start, will update shortly.
 
- --v39 React Installed: basic files installed to get react proj to start. Hello introduction @ index.js -> React/react_project
+ v39 React Installed: basic files installed to get react proj to start. Hello introduction @ index.js -> React/react_project
  pycharm quick tutorial: https://www.jetbrains.com/help/pycharm/npm-tool-window.html
+
+--v40 Updated filename: updated folder from react_project to react_project0, will be building upon this with added #'s.
