@@ -1,33 +1,56 @@
-.App {
-  text-align: center;
+/* covers everything, its pretty much like a root info, compress
+ info for App-header */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* body info */
+body{
+  font-family: Roboto, sans-serif;
+  line-height: 1.5;
+
+}
+/* Link color */
+a {
+  color: lightskyblue;
+  text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
+/* App header */
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  /* Text font size */
   font-size: calc(10px + 2vmin);
+  /* Text color */
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+/* Todos.js information using  className={'ToDos'}*/
+.ToDos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
+/* SVG Image motion animation*/
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    /* SVG spin animation speed time to go around, shorter time = faster animation,
+    higher time = slower animation */
+    animation: App-logo-spin infinite 15s linear;
+  }
+}
+
+/* rotation for SVG Image
+  higher to { transform: rotate (#deg) the faster the 'spin' will be
+  lower #deg = slower spin cycle
+ */
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

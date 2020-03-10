@@ -170,5 +170,7 @@ v37 Commented & Updated Info: updated .html to include comments to further detai
 
 v40 Updated filename: updated folder from react_project to react_project0, will be building upon this with added #'s.
 
---v41 Custom Logo: custom logo / modified App.js, will be making this into a todo list format.
+v41 Custom Logo: custom logo / modified App.js, will be making this into a todo list format.
 			tutorial for a quick react -> https://www.youtube.com/watch?v=sBws8MSXN7A
+
+--v42 ToDos information : new file Todos.js, to make a 'todo' list, modified the file for the list
