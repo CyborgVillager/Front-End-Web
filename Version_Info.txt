@@ -182,5 +182,8 @@ v43 ToDo Line-Through & extend: changes to the file to allow, line through/ made
 v44 TODO: once a user clicks on 'markcomplete' @ Todoitem.js -> onChange=[this.props.markComplete} the code will go to Todos.js and
 		run markComplete which connects to App.js. Once that happens a txt will apear via console 'from app.js'
  ----------------------------    ----------------------------   ------------------------- ------------------------------
---v45 Updated Checks: once user clicks on a topic to check off their todo, a line-through will appear signifying that they
+v45 Updated Checks: once user clicks on a topic to check off their todo, a line-through will appear signifying that they
 			have completed their tasks at hand.
+
+--v46 Temp Del: deletion is availb, can now 'delete' a task, since this is front end/ has no db, the task will return, unless a db
+		has been created.

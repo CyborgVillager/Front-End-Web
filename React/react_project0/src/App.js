@@ -24,6 +24,7 @@ import {render} from "react-dom";
         },
       ]
     }
+    /* Once user checks off a task, it will update the TODo table signifying the completion of task */
     markComplete = (id) => {
       this.setState({todos: this.state.todos.map(todo => {
         if(todo.id == id){
@@ -33,6 +34,11 @@ import {render} from "react-dom";
         })
       });
     }
+
+/* Delete ToDo option */
+delTodo = (id) => {
+  this.setState({todos: [...this.state.todos.filter(todo => todo.id !== id)]});
+}
 
  render(){
 
@@ -50,7 +56,8 @@ import {render} from "react-dom";
           <i> ^_*</i>
         </p>
       </header>
- <Todos todos={this.state.todos} markComplete={this.markComplete}/>
+ <Todos todos={this.state.todos} markComplete={this.markComplete}
+ delTodo={this.delTodo}/>
 
     </div>
   );
