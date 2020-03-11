@@ -210,7 +210,7 @@ v48 CSS Implement Grid: Aquired/modified info from respo: https://github.com/fir
                             on base.css for CSS/css/base.css that connects to basic_grid.html, this gives a bit more better
                             visual appeal for mobile users.
  ----------------------------    ----------------------------   ------------------------- ------------------------------
---v49 Image Grid: modified Image grid, included new information to make it more accessible to potential posts, got an idea
+v49 Image Grid: modified Image grid, included new information to make it more accessible to potential posts, got an idea
                 for using this reference for a special site in the making ^_*. Besides that mostly improved the concept/added
                 new features
 
@@ -219,3 +219,23 @@ v48 CSS Implement Grid: Aquired/modified info from respo: https://github.com/fir
                     * style9.css
                     * img_grid.html
                     * Version_Info.txt
+
+--v50 Animated Grid: Made footer into css for wide use for a site, included the animated grid provided by the respo
+                    check v48 for more information, modified/made some changes for future reference.
+
+                Files that were changed:
+                    * animated_grid.html
+                    * animated-grid.css
+                    * base.css
+                    * footer.css
+                    * img_grid.html
+                    * Version_Info.txt
+
+                Its been a blast working on this, quite an experience. I'll be working more on the react and be implementing it
+                onto a couple of projects that I'm working on. Besides that feel free to use this respo for your reference
+                as well! I'm all for sharing knowledge/increasing the collective understanding of code.
+
+                Will be working on DB's to implement onto a site, and testing some things along the way, once that's complete
+                will be working on react.
+
+
