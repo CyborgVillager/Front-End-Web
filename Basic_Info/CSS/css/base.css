@@ -13,6 +13,26 @@ h1{
     font-size: 40px;
    }
 
+/* User link click/hover */
+/* Link color blue */
+a:link{
+    color: #FF383C;
+    }
+
+/* Tells user via color code that they already visited the link */
+a:visited{
+    color: greenyellow;
+}
+/* When user is hovering over the link/underline & changes size */
+a:hover{
+    color: orangered;
+    font-size: 110%;
+}
+/* When user clicks on it turns aqua to signify they clicked on it */
+a:active{
+    color: aqua;
+}
+
 /* card class */
 .card {
     display: flex;
@@ -41,6 +61,14 @@ pop up/show its box shadow & colors the text */
     transform: translateY(-3px) scale(1.1);
     color: orange;
  }
+
+footer{
+    font-size: 12px;
+    text-align: center;
+}
+.footerauthor{
+    color: #FF6003;
+}
 
 
 /* Mobile Devices */

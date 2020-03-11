@@ -192,7 +192,7 @@ v47 Basic ToDO: basic todo list using react. will now be making a database for a
 			used as a tutorial. Besides that Ill be updating this respo until that db is completed, and implemented onto
 			a front end-site.
 
---v48 CSS Implement Grid: Aquired/modified info from respo: https://github.com/fireship-io/224-animated-css-grid	for further animations
+v48 CSS Implement Grid: Aquired/modified info from respo: https://github.com/fireship-io/224-animated-css-grid for further animations
                         in css, to give 'user input'. Helps a lot espacially for mobile devices in which getting a feedback
                         from the system is important , sorta similiar to tactile feel.
                         Video tutorial on the respo: https://www.youtube.com/watch?v=705XCEruZFs made by Fireship.
@@ -207,6 +207,15 @@ v47 Basic ToDO: basic todo list using react. will now be making a database for a
                                 width: 90%;
                               }
                             }
-
                             on base.css for CSS/css/base.css that connects to basic_grid.html, this gives a bit more better
                             visual appeal for mobile users.
+ ----------------------------    ----------------------------   ------------------------- ------------------------------
+--v49 Image Grid: modified Image grid, included new information to make it more accessible to potential posts, got an idea
+                for using this reference for a special site in the making ^_*. Besides that mostly improved the concept/added
+                new features
+
+                Files that were changed :
+                    * base.css
+                    * style9.css
+                    * img_grid.html
+                    * Version_Info.txt
