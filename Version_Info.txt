@@ -12,7 +12,7 @@
                | v# : Short Version Title    |
                | Description: v# description |
                | --------------------------- |
- ----------------------------    ----------------------------   ------------------------- ------------------------------
+----------------------------    ----------------------------   ------------------------- ------------------------------
 v1 Respo Created: Respo created, added MIT license, started the project.
 
 v2 Basic html: basic html called html_intro.html
@@ -50,7 +50,7 @@ v13 CSS Update: CSS will be updated shortly.
                 & css together / mix up or combine certain aspects
 
                 Link to RGB color code -> https://www.rapidtables.com/web/color/RGB_Color.html
- ----------------------------    ----------------------------   ------------------------- ------------------------------
+----------------------------    ----------------------------   ------------------------- ------------------------------
 v15 Basic lvl2 CSS Implement: 2 new files style1 & html2_basic_css_extra_info, that goes into a bit more in-depth
                         for css implement with new addons for 'page features' images, going to 'top' of page, different
                         variants on using css to your advantage to give your site a bit more visual appeal/functionality
@@ -75,7 +75,7 @@ v18 Updated: Updated html2_basic_css_extra_info.html to show more feature for cs
 v19 CSS Box & Update: further update v18 file, to include 'author name' and the choice to click on the author's name to
                             see the author's email if the user would like to get into contact with the author.
                             Besides that new file just to show css boxes
- ----------------------------    ----------------------------   ------------------------- ------------------------------
+----------------------------    ----------------------------   ------------------------- ------------------------------
  v20 CSS Implement: new file html_box_css & style3 just shows on how css can implement a 'box' for certain information
                         from style3.css .
 
@@ -104,7 +104,7 @@ v25 Static Site Layout: made a static_layout.html file which shows what a 'stati
                             * Thinking of taking snippets of the done version, and place their images onto the respo to give
                             a good understanding on what the finished version looks like after implementing the code onto
                             it.
- ----------------------------    ----------------------------   ------------------------- ------------------------------
+----------------------------    ----------------------------   ------------------------- ------------------------------
 v26 ITS ALIVE! Dynamic Site: new file called dyam_site.html now takes into the user's screen size and modify it self
                                 according to its style9.css percentage and fits onto the user's dynamic screen. If the
                                 user's screen size is small, the site will modify to fit that small screen size.
@@ -133,7 +133,7 @@ v31 Basic hello: Basic hello for hello.html , just tells the user hello once the
 v32 MSG.html & let: Using let to declare a var/value. Besides that basic msg.html just tells the user hello & random
                         info alerts.
 
- ----------------------------    ----------------------------   ------------------------- ------------------------------
+----------------------------    ----------------------------   ------------------------- ------------------------------
 v33 Updated let/to do.html : Updated the outdated info for var time_greet.html & included new file for a const called basic_todo.js
                                 that connects to basic_todo.html
 
@@ -161,7 +161,7 @@ v36 Modified CSS: modified css information for better reference material/help in
 v37 Commented & Updated Info: updated .html to include comments to further detail what code does what for the nav bar info. Its
                         pretty much done at the moment, good reference to look at when making a front end site with
                         navigation using both css & js information.
- ----------------------------    ----------------------------   ------------------------- ------------------------------
+----------------------------    ----------------------------   ------------------------- ------------------------------
 
  v38 React Intro: react start, will update shortly.
 
@@ -181,7 +181,7 @@ v43 ToDo Line-Through & extend: changes to the file to allow, line through/ made
 
 v44 TODO: once a user clicks on 'markcomplete' @ Todoitem.js -> onChange=[this.props.markComplete} the code will go to Todos.js and
 		run markComplete which connects to App.js. Once that happens a txt will apear via console 'from app.js'
- ----------------------------    ----------------------------   ------------------------- ------------------------------
+----------------------------    ----------------------------   ------------------------- ------------------------------
 v45 Updated Checks: once user clicks on a topic to check off their todo, a line-through will appear signifying that they
 			have completed their tasks at hand.
 
@@ -209,7 +209,7 @@ v48 CSS Implement Grid: Aquired/modified info from respo: https://github.com/fir
                             }
                             on base.css for CSS/css/base.css that connects to basic_grid.html, this gives a bit more better
                             visual appeal for mobile users.
- ----------------------------    ----------------------------   ------------------------- ------------------------------
+----------------------------    ----------------------------   ------------------------- ------------------------------
 v49 Image Grid: modified Image grid, included new information to make it more accessible to potential posts, got an idea
                 for using this reference for a special site in the making ^_*. Besides that mostly improved the concept/added
                 new features
@@ -220,7 +220,7 @@ v49 Image Grid: modified Image grid, included new information to make it more ac
                     * img_grid.html
                     * Version_Info.txt
 
---v50 Animated Grid: Made footer into css for wide use for a site, included the animated grid provided by the respo
+v50 Animated Grid: Made footer into css for wide use for a site, included the animated grid provided by the respo
                     check v48 for more information, modified/made some changes for future reference.
 
                 Files that were changed:
@@ -238,4 +238,10 @@ v49 Image Grid: modified Image grid, included new information to make it more ac
                 Will be working on DB's to implement onto a site, and testing some things along the way, once that's complete
                 will be working on react.
 
+
+--v51 SASS: improvement to CSS, made new files
+
+        Files that were changed:
+        * new folder called Sass, will hold the new info in learning about it.
+----------------------------    ----------------------------   ------------------------- ------------------------------
 
