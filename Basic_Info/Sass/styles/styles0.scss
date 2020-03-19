@@ -1,6 +1,9 @@
+$primaryButton : rgb(154,214,140);
+
 header {
-  background: blue;
+  background:$primaryButton ;
+  justify-content: center;
 }
 body{
-  background-color: gray;
+  background-color: $primaryButton ;
 }

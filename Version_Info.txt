@@ -239,9 +239,11 @@ v50 Animated Grid: Made footer into css for wide use for a site, included the an
                 will be working on react.
 
 
---v51 SASS: improvement to CSS, made new files
+v51 SASS: improvement to CSS, made new files
 
         Files that were changed:
         * new folder called Sass, will hold the new info in learning about it.
 ----------------------------    ----------------------------   ------------------------- ------------------------------
+--v52 Mezzanine: Will be implementing sass onto a new project w/ Mezzanine. Its building upon my previous projects of django
+                & mezzanine respo.
 
