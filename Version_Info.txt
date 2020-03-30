@@ -244,6 +244,32 @@ v51 SASS: improvement to CSS, made new files
         Files that were changed:
         * new folder called Sass, will hold the new info in learning about it.
 ----------------------------    ----------------------------   ------------------------- ------------------------------
---v52 Mezzanine: Will be implementing sass onto a new project w/ Mezzanine. Its building upon my previous projects of django
+v52 Mezzanine: Will be implementing sass onto a new project w/ Mezzanine. Its building upon my previous projects of django
                 & mezzanine respo.
 
+--v53 CSS Background Modify: users can now modify their 'page' by choosing either light, dark or solar options to change
+                                the background of their page, which will affect the other pages they go on in their system.
+
+                             Special thanks to Fireship for the additional assitance -> https://www.youtube.com/watch?v=rXuHGLzSmSE
+
+                                Files Modified:
+                                New file -> Web_Bck_Changer
+                                    *index.html
+
+                                    *img
+                                        - logo.gif
+                                    * css
+                                        - styles.css
+                                            - css info for the site
+                                    *js
+                                        -app0.js
+                                            - Saves the user's 'data' of choice when they pick a color for the web page
+
+                                Summary: Folder ->  Web_Bck_Changer is a good reference for the Django & Mezzanine project
+                                            can implement for the user's end, and does not requires the user to register to have
+                                               access to this feature. Besides that will work on improving this concept
+                                               for future use
+
+                                               Tested on 'mobile' side, works great will need to further improve the concept
+                                               as stated before, however this is a good starting point from forward on.
+----------------------------    ----------------------------   ------------------------- ------------------------------
