@@ -247,7 +247,7 @@ v51 SASS: improvement to CSS, made new files
 v52 Mezzanine: Will be implementing sass onto a new project w/ Mezzanine. Its building upon my previous projects of django
                 & mezzanine respo.
 
---v53 CSS Background Modify: users can now modify their 'page' by choosing either light, dark or solar options to change
+v53 CSS Background Modify: users can now modify their 'page' by choosing either light, dark or solar options to change
                                 the background of their page, which will affect the other pages they go on in their system.
 
                              Special thanks to Fireship for the additional assitance -> https://www.youtube.com/watch?v=rXuHGLzSmSE
@@ -273,3 +273,34 @@ v52 Mezzanine: Will be implementing sass onto a new project w/ Mezzanine. Its bu
                                                Tested on 'mobile' side, works great will need to further improve the concept
                                                as stated before, however this is a good starting point from forward on.
 ----------------------------    ----------------------------   ------------------------- ------------------------------
+
+--v54 Writing Assignment: Made a rough draft that was sent as an assignment on making a visual argument. One of the option
+                            was to make a site, took that option and made the following folder Blog Site Example
+
+                            Files Modified:
+                            New Folder -> Blog Site Example
+                                *index.html
+                                *about.html
+                                *info_post.html
+
+                                *img
+                                    -logo.gif
+                                *css
+                                    -style0.css
+
+                                *js
+                                    -app0.js
+
+                                Summary: Basically used my previous article to finish the assignment in regards to the
+                                            importance of IT/Data can be found @ https://theviiiager.wordpress.com/2019/09/26/the-importance-of-data/
+                                            and just imported that onto this Blog template site for a front end example for
+                                            the assignment. Basically correlates to the orignal premise that my professor
+                                            was asking. Decided this was more efficient than making a new article, just only
+                                            make a new site using my previous builds/combining them into this beauty.
+                                            Granted only using a couple, but with time Ill be using more to create more complex
+                                            designs using simple methods. With that I'll be sharing so you can improve
+                                            your knowledge while saving time as well. Simpler is better /efficient.
+
+
+                                            
+
